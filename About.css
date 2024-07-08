@@ -1,0 +1,302 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+
+}
+
+.free-shipping{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.free-shipping svg{
+    width: 1.2vw;
+    margin-left: .2rem;
+}
+
+header{
+    position: sticky;
+    top: 0%;
+}
+.navbar{
+    background-color: black;
+    width: 100vw;
+    height: 90px;
+    padding-left: 148px;
+    padding-right: 148px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid;
+    border-color: #252525;
+    position: relative;
+}
+
+.nav-logo img{
+    width: 124px;
+    height: auto;
+}
+
+.nav-button{
+  
+    display: flex;
+    padding-left: 32px;
+}
+
+.nav-button li{
+    padding-left: 4vh;
+    list-style: none;
+}
+
+.nav-button li a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.nav-button li a:hover{
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 1px;
+}
+
+.login-cart{
+    /* background-color: gray; */
+    width: 10vw;
+    height: 90px;
+    position: absolute;
+    left: 84vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-account{
+    height: 1.6rem;
+    width: 1.6rem;
+    color: #fff;
+    margin-right: 17px;
+}
+
+.icon-cart-empty{
+    height: 3.6rem;
+    width: 3.6rem;
+    color: #fff;
+}
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    height: 72vh;
+
+}
+
+.img-container{
+    width: 87vw;
+    height: 300px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images{
+    display: flex;
+}
+
+.images ul{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.images ul li{
+    list-style: none;
+    /* background-color: black; */
+}
+
+.images ul li img{
+    width: 24vw;
+    height: auto;
+    margin-bottom: 3px;
+    border-bottom: 1px;
+    border-color: gray;
+}
+
+.images-container{
+    width: 100vw;
+    height: auto;
+    /* background-color: aqua; */
+    padding: 38px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.images-container div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1vh;
+    
+}
+
+.images-container div div{
+    width: 30.33vw;
+    height: auto;
+    display: flex;
+}
+
+.images-container div div img{
+    width: 22.75rem;
+    height: auto;
+}
+
+.profile-section{
+    width: 100vw;
+    height:39.25vw;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+
+}
+.profile-container{
+    /* background-color: #252525; */
+    width: 84.75vw;
+    height: 38.25vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 55px;
+    
+}
+
+.person img{
+    width: auto;
+    height: 31.25vw;
+}
+
+.profile-text{
+    width: 55vw;
+    height: 31.25vw;
+    padding: 5%;
+}
+
+.profile-text p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 65, 65);
+    font-weight: lighter;
+}
+
+.footer-1{
+    width: 100vw;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-bottom: 1px solid;
+    border-color: #252525;
+
+}
+.footer-1 p{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.phone-number{
+    margin-bottom: 2rem;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+.phone-number:hover{
+    color: white;
+}
+
+.email{
+    margin-bottom: 2rem;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+.email:hover{
+    color: white;
+}
+
+.icon-instagram{
+    color: white;
+    width: 1vw;
+    height: auto;
+    margin-top: 23px;
+}
+
+.icon-instagram:hover{
+    width: 1.1vw;
+    height: auto;
+}
+
+.footer-2{
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-2 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.footer-2 ul li{
+    list-style: none;
+    padding: 10px;
+    color: gray;
+    list-style: none;
+}
+
+.footer-2 ul li a{
+    color: gray;
+    font-size: 13px;
+    text-decoration: none;
+
+}
+
+.footer-2 ul li a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.footer-2 ul span{
+    color: gray;
+}
+
+
